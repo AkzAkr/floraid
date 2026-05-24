@@ -203,12 +203,12 @@ async def health_check():
 @limiter.limit("10/minute")
 async def predict(
     request: Request,
-    file: UploadFile = File(..., description="Flower image to classify (JPG/PNG, max 5MB)")
+    file: UploadFile = File(..., description="Flower image to classify (JPG/PNG, max 10MB)")
 ):
     """
     Classify a flower image and return top-5 predictions.
 
-    - **file**: Upload image file (JPG/PNG, max 5MB)
+    - **file**: Upload image file (JPG/PNG, max 10MB)
     - Returns: Top-5 predictions with confidence scores
     """
     if not model_manager.is_loaded:
@@ -228,8 +228,8 @@ async def predict(
 
     # Read and validate image
     contents = await file.read()
-    if len(contents) > 5 * 1024 * 1024:  # 5MB limit
-        raise HTTPException(status_code=413, detail="Image too large (max 5MB)")
+    if len(contents) > 10 * 1024 * 1024:  # 10MB limit
+        raise HTTPException(status_code=413, detail="Image too large (max 10MB)")
 
     try:
         # Validate and preprocess
@@ -282,12 +282,12 @@ async def predict(
 @limiter.limit("10/minute")
 async def gradcam(
     request: Request,
-    file: UploadFile = File(..., description="Flower image for GradCAM (JPG/PNG, max 5MB)")
+    file: UploadFile = File(..., description="Flower image for GradCAM (JPG/PNG, max 10MB)")
 ):
     """
     Generate GradCAM heatmap for model interpretability.
 
-    - **file**: Upload image file (JPG/PNG, max 5MB)
+    - **file**: Upload image file (JPG/PNG, max 10MB)
     - Returns: Heatmap and overlay images as base64
     """
     if not model_manager.is_loaded:
@@ -306,8 +306,8 @@ async def gradcam(
         raise HTTPException(status_code=400, detail="File must be an image (JPG/PNG)")
 
     contents = await file.read()
-    if len(contents) > 5 * 1024 * 1024:
-        raise HTTPException(status_code=413, detail="Image too large (max 5MB)")
+    if len(contents) > 10 * 1024 * 1024:
+        raise HTTPException(status_code=413, detail="Image too large (max 10MB)")
 
     try:
         # Validate and preprocess

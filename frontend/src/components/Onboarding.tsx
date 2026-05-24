@@ -31,7 +31,7 @@ const STEPS: OnboardingStep[] = [
     id: "upload",
     title: "Upload a Photo",
     description:
-      "Drag & drop or click to upload. We support JPG, PNG, and WebP up to 5MB.",
+      "Drag & drop or click to upload. We support JPG, PNG, and WebP up to 10MB.",
     icon: <Upload className="w-6 h-6 text-[#5B8C5A]" />,
   },
   {

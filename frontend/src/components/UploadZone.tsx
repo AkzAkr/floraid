@@ -87,7 +87,7 @@ export default function UploadZone({
         const error = rejection.errors[0];
 
         if (error?.code === "file-too-large") {
-          setUploadError({ type: "size", message: `File too large. Max 5MB.` });
+          setUploadError({ type: "size", message: `File too large. Max 10MB.` });
           showError(t("upload.tooLarge"), "delete");
           return;
         }
@@ -110,8 +110,8 @@ export default function UploadZone({
       if (acceptedFiles[0]) {
         const file = acceptedFiles[0];
 
-        if (file.size > 5 * 1024 * 1024) {
-          setUploadError({ type: "size", message: `File too large. Max 5MB.` });
+        if (file.size > 10 * 1024 * 1024) {
+          setUploadError({ type: "size", message: `File too large. Max 10MB.` });
           showError(t("upload.tooLarge"), "delete");
           return;
         }
@@ -143,7 +143,7 @@ export default function UploadZone({
         "image/png": [".png"],
         "image/webp": [".webp"],
       },
-      maxSize: 5 * 1024 * 1024,
+      maxSize: 10 * 1024 * 1024,
       multiple: false,
     });
 
@@ -256,7 +256,7 @@ export default function UploadZone({
                     JPG, PNG, WebP
                   </span>
                   <span className="px-3 py-1.5 rounded-full bg-[#E8F5E9] text-xs font-medium text-[#5B8C5A]">
-                    Max 5MB
+                    Max 10MB
                   </span>
                 </div>
 
