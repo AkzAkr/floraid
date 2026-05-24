@@ -39,6 +39,7 @@ docker-compose.yml
 backend/models/*_aug.keras
 backend/models/placeholder.txt
 backend/strip_augmentation_local.py
+!hf-backend/
 
 # Notebook checkpoints
 .ipynb_checkpoints/

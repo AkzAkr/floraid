@@ -1,0 +1,623 @@
+{
+  "class_001": {
+    "common_name": "Pink Primrose",
+    "scientific_name": "Primula vulgaris",
+    "family": "Primulaceae",
+    "origin": "Eurasia (Europe to Western Asia)"
+  },
+  "class_002": {
+    "common_name": "Hard-leaved Pocket Orchid",
+    "scientific_name": "Paphiopedilum micranthum",
+    "family": "Orchidaceae",
+    "origin": "Southwestern China and Northern Vietnam"
+  },
+  "class_003": {
+    "common_name": "Canterbury Bells",
+    "scientific_name": "Campanula medium",
+    "family": "Campanulaceae",
+    "origin": "Southern Europe (France and Italy)"
+  },
+  "class_004": {
+    "common_name": "Sweet Pea",
+    "scientific_name": "Lathyrus odoratus",
+    "family": "Fabaceae",
+    "origin": "Sicily, Southern Italy, and the Aegean Islands"
+  },
+  "class_005": {
+    "common_name": "English Marigold",
+    "scientific_name": "Calendula officinalis",
+    "family": "Asteraceae",
+    "origin": "Southern Europe (Mediterranean region)"
+  },
+  "class_006": {
+    "common_name": "Tiger Lily",
+    "scientific_name": "Lilium lancifolium",
+    "family": "Liliaceae",
+    "origin": "East Asia (China, Korea, Japan, and Russia Far East)"
+  },
+  "class_007": {
+    "common_name": "Moon Orchid",
+    "scientific_name": "Phalaenopsis amabilis",
+    "family": "Orchidaceae",
+    "origin": "Indonesia, Philippines, Papua New Guinea, and Northern Australia"
+  },
+  "class_008": {
+    "common_name": "Bird of Paradise",
+    "scientific_name": "Strelitzia reginae",
+    "family": "Strelitziaceae",
+    "origin": "South Africa (Cape Provinces and KwaZulu-Natal)"
+  },
+  "class_009": {
+    "common_name": "Monkshood",
+    "scientific_name": "Aconitum napellus",
+    "family": "Ranunculaceae",
+    "origin": "Western and Central Europe"
+  },
+  "class_010": {
+    "common_name": "Globe Thistle",
+    "scientific_name": "Echinops ritro",
+    "family": "Asteraceae",
+    "origin": "Southern and Eastern Europe, Western Asia"
+  },
+  "class_011": {
+    "common_name": "Snapdragon",
+    "scientific_name": "Antirrhinum majus",
+    "family": "Plantaginaceae",
+    "origin": "Mediterranean Europe (Spain and southern France)"
+  },
+  "class_012": {
+    "common_name": "Colt's Foot",
+    "scientific_name": "Tussilago farfara",
+    "family": "Asteraceae",
+    "origin": "Europe and Western to Central Asia"
+  },
+  "class_013": {
+    "common_name": "King Protea",
+    "scientific_name": "Protea cynaroides",
+    "family": "Proteaceae",
+    "origin": "South Africa (Western and Southern Cape Province)"
+  },
+  "class_014": {
+    "common_name": "Spear Thistle",
+    "scientific_name": "Cirsium vulgare",
+    "family": "Asteraceae",
+    "origin": "Europe, Western Asia, and North Africa"
+  },
+  "class_015": {
+    "common_name": "Yellow Iris",
+    "scientific_name": "Iris pseudacorus",
+    "family": "Iridaceae",
+    "origin": "Europe, Western Asia, and Northwest Africa"
+  },
+  "class_016": {
+    "common_name": "Globe-flower",
+    "scientific_name": "Trollius europaeus",
+    "family": "Ranunculaceae",
+    "origin": "Europe and Western Asia"
+  },
+  "class_017": {
+    "common_name": "Purple Coneflower",
+    "scientific_name": "Echinacea purpurea",
+    "family": "Asteraceae",
+    "origin": "Eastern North America"
+  },
+  "class_018": {
+    "common_name": "Peruvian Lily",
+    "scientific_name": "Alstroemeria aurea",
+    "family": "Alstroemeriaceae",
+    "origin": "South America (Chile and Argentina)"
+  },
+  "class_019": {
+    "common_name": "Balloon Flower",
+    "scientific_name": "Platycodon grandiflorus",
+    "family": "Campanulaceae",
+    "origin": "East Asia (China, Korea, Japan, and Russian Far East)"
+  },
+  "class_020": {
+    "common_name": "Giant White Arum Lily",
+    "scientific_name": "Zantedeschia aethiopica",
+    "family": "Araceae",
+    "origin": "Southern Africa (South Africa, Lesotho, and Eswatini)"
+  },
+  "class_021": {
+    "common_name": "Fire Lily",
+    "scientific_name": "Lilium bulbiferum",
+    "family": "Liliaceae",
+    "origin": "Central and Southern Europe"
+  },
+  "class_022": {
+    "common_name": "Pincushion Flower",
+    "scientific_name": "Scabiosa atropurpurea",
+    "family": "Caprifoliaceae",
+    "origin": "Mediterranean Europe and North Africa"
+  },
+  "class_023": {
+    "common_name": "Fritillary",
+    "scientific_name": "Fritillaria meleagris",
+    "family": "Liliaceae",
+    "origin": "Europe (flood plains from France to Western Russia)"
+  },
+  "class_024": {
+    "common_name": "Red Ginger",
+    "scientific_name": "Alpinia purpurata",
+    "family": "Zingiberaceae",
+    "origin": "Maluku Islands and Southwest Pacific Islands"
+  },
+  "class_025": {
+    "common_name": "Grape Hyacinth",
+    "scientific_name": "Muscari armeniacum",
+    "family": "Asparagaceae",
+    "origin": "Southeastern Europe and Western Asia (Turkey, Caucasus)"
+  },
+  "class_026": {
+    "common_name": "Corn Poppy",
+    "scientific_name": "Papaver rhoeas",
+    "family": "Papaveraceae",
+    "origin": "Europe and Western Asia"
+  },
+  "class_027": {
+    "common_name": "Prince of Wales Feathers",
+    "scientific_name": "Amaranthus hypochondriacus",
+    "family": "Amaranthaceae",
+    "origin": "Mexico and Central America"
+  },
+  "class_028": {
+    "common_name": "Stemless Gentian",
+    "scientific_name": "Gentiana acaulis",
+    "family": "Gentianaceae",
+    "origin": "European Alps and Pyrenees (mountain meadows)"
+  },
+  "class_029": {
+    "common_name": "Artichoke",
+    "scientific_name": "Cynara cardunculus",
+    "family": "Asteraceae",
+    "origin": "Mediterranean region (North Africa and Southern Europe)"
+  },
+  "class_030": {
+    "common_name": "Sweet William",
+    "scientific_name": "Dianthus barbatus",
+    "family": "Caryophyllaceae",
+    "origin": "Southern Europe and Northeastern Asia"
+  },
+  "class_031": {
+    "common_name": "Carnation",
+    "scientific_name": "Dianthus caryophyllus",
+    "family": "Caryophyllaceae",
+    "origin": "Mediterranean region (Southern Europe)"
+  },
+  "class_032": {
+    "common_name": "Garden Phlox",
+    "scientific_name": "Phlox paniculata",
+    "family": "Polemoniaceae",
+    "origin": "Eastern North America"
+  },
+  "class_033": {
+    "common_name": "Love in the Mist",
+    "scientific_name": "Nigella damascena",
+    "family": "Ranunculaceae",
+    "origin": "Southern Europe and North Africa"
+  },
+  "class_034": {
+    "common_name": "Mexican Aster",
+    "scientific_name": "Cosmos bipinnatus",
+    "family": "Asteraceae",
+    "origin": "Mexico and Central America"
+  },
+  "class_035": {
+    "common_name": "Alpine Sea Holly",
+    "scientific_name": "Eryngium alpinum",
+    "family": "Apiaceae",
+    "origin": "European Alps (Austria, Switzerland, France, Italy)"
+  },
+  "class_036": {
+    "common_name": "Ruby-lipped Cattleya",
+    "scientific_name": "Cattleya labiata",
+    "family": "Orchidaceae",
+    "origin": "Northeastern Brazil"
+  },
+  "class_037": {
+    "common_name": "Cape Flower",
+    "scientific_name": "Streptocarpus",
+    "family": "Gesneriaceae",
+    "origin": "Southern and Eastern Africa, Madagascar"
+  },
+  "class_038": {
+    "common_name": "Great Masterwort",
+    "scientific_name": "Astrantia major",
+    "family": "Apiaceae",
+    "origin": "Central and Eastern Europe (alpine meadows to Caucasus)"
+  },
+  "class_039": {
+    "common_name": "Siam Tulip",
+    "scientific_name": "Curcuma alismatifolia",
+    "family": "Zingiberaceae",
+    "origin": "Southeast Asia (Laos, Northern Thailand, and Cambodia)"
+  },
+  "class_040": {
+    "common_name": "Lenten Rose",
+    "scientific_name": "Helleborus orientalis",
+    "family": "Ranunculaceae",
+    "origin": "Greece and Turkey"
+  },
+  "class_041": {
+    "common_name": "Barbeton Daisy",
+    "scientific_name": "Gerbera jamesonii",
+    "family": "Asteraceae",
+    "origin": "South Africa (Mpumalanga and KwaZulu-Natal)"
+  },
+  "class_042": {
+    "common_name": "Daffodil",
+    "scientific_name": "Narcissus pseudonarcissus",
+    "family": "Amaryllidaceae",
+    "origin": "Western Europe (Spain, Portugal east to Germany and England)"
+  },
+  "class_043": {
+    "common_name": "Sword Lily",
+    "scientific_name": "Gladiolus",
+    "family": "Iridaceae",
+    "origin": "Sub-Saharan Africa (South Africa and tropical Africa)"
+  },
+  "class_044": {
+    "common_name": "Poinsettia",
+    "scientific_name": "Euphorbia pulcherrima",
+    "family": "Euphorbiaceae",
+    "origin": "Mexico and Central America"
+  },
+  "class_045": {
+    "common_name": "Bolero Deep Blue",
+    "scientific_name": "Delphinium",
+    "family": "Ranunculaceae",
+    "origin": "Northern Hemisphere (Europe, Asia, and North America)"
+  },
+  "class_046": {
+    "common_name": "Wallflower",
+    "scientific_name": "Erysimum cheiri",
+    "family": "Brassicaceae",
+    "origin": "Greece (Eastern Mediterranean)"
+  },
+  "class_047": {
+    "common_name": "Marigold",
+    "scientific_name": "Tagetes erecta",
+    "family": "Asteraceae",
+    "origin": "Mexico and Central America"
+  },
+  "class_048": {
+    "common_name": "Buttercup",
+    "scientific_name": "Ranunculus acris",
+    "family": "Ranunculaceae",
+    "origin": "Europe and temperate Asia"
+  },
+  "class_049": {
+    "common_name": "Daisy",
+    "scientific_name": "Bellis perennis",
+    "family": "Asteraceae",
+    "origin": "Western, Central, and Northern Europe"
+  },
+  "class_050": {
+    "common_name": "Common Dandelion",
+    "scientific_name": "Taraxacum officinale",
+    "family": "Asteraceae",
+    "origin": "Eurasia (Europe and temperate Asia)"
+  },
+  "class_051": {
+    "common_name": "Petunia",
+    "scientific_name": "Petunia hybrida",
+    "family": "Solanaceae",
+    "origin": "South America (Argentina and Brazil) — garden hybrid"
+  },
+  "class_052": {
+    "common_name": "Wild Pansy",
+    "scientific_name": "Viola tricolor",
+    "family": "Violaceae",
+    "origin": "Europe and Western Asia"
+  },
+  "class_053": {
+    "common_name": "Primula",
+    "scientific_name": "Primula obconica",
+    "family": "Primulaceae",
+    "origin": "China (Yunnan, Sichuan, and Hubei provinces)"
+  },
+  "class_054": {
+    "common_name": "Sunflower",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae",
+    "origin": "North America (USA and Mexico)",
+    "bloom_season": "June - September",
+    "colors": ["Bright Yellow", "Orange", "Maroon", "Brown (center)"],
+    "fun_facts": [
+      "Young sunflowers track the sun (heliotropism) from east to west.",
+      "Record height: 9.17 meters (2014).",
+      "Sunflower seeds are technically dry fruits called achenes.",
+      "Symbolism: Loyalty, happiness, and adoration.",
+      "Van Gogh painted 5 'Sunflowers' works (1888-1889)."
+    ]
+  },
+  "class_055": {
+    "common_name": "Pelargonium",
+    "scientific_name": "Pelargonium hortorum",
+    "family": "Geraniaceae",
+    "origin": "South Africa (Cape Province)"
+  },
+  "class_056": {
+    "common_name": "Bishop of Llandaff",
+    "scientific_name": "Dahlia",
+    "family": "Asteraceae",
+    "origin": "Mexico and Central America"
+  },
+  "class_057": {
+    "common_name": "Gaura",
+    "scientific_name": "Oenothera lindheimeri",
+    "family": "Onagraceae",
+    "origin": "Southern North America (Louisiana and Texas, USA)"
+  },
+  "class_058": {
+    "common_name": "Geranium",
+    "scientific_name": "Geranium sanguineum",
+    "family": "Geraniaceae",
+    "origin": "Europe and Western Asia"
+  },
+  "class_059": {
+    "common_name": "Orange Dahlia",
+    "scientific_name": "Dahlia",
+    "family": "Asteraceae",
+    "origin": "Mexico and Central America"
+  },
+  "class_060": {
+    "common_name": "Pink-yellow Dahlia",
+    "scientific_name": "Dahlia",
+    "family": "Asteraceae",
+    "origin": "Mexico and Central America"
+  },
+  "class_061": {
+    "common_name": "Cautleya Spicata",
+    "scientific_name": "Cautleya spicata",
+    "family": "Zingiberaceae",
+    "origin": "Himalayas (Nepal, India, and Bhutan)"
+  },
+  "class_062": {
+    "common_name": "Japanese Anemone",
+    "scientific_name": "Anemone hupehensis",
+    "family": "Ranunculaceae",
+    "origin": "Central China (Hubei and Sichuan provinces)"
+  },
+  "class_063": {
+    "common_name": "Black-eyed Susan",
+    "scientific_name": "Rudbeckia hirta",
+    "family": "Asteraceae",
+    "origin": "Eastern North America"
+  },
+  "class_064": {
+    "common_name": "Silverbush",
+    "scientific_name": "Convolvulus cneorum",
+    "family": "Convolvulaceae",
+    "origin": "Mediterranean Europe (Italy, Albania, and former Yugoslavia)"
+  },
+  "class_065": {
+    "common_name": "Californian Poppy",
+    "scientific_name": "Eschscholzia californica",
+    "family": "Papaveraceae",
+    "origin": "Western North America (California and Oregon, USA)"
+  },
+  "class_066": {
+    "common_name": "Osteospermum",
+    "scientific_name": "Osteospermum",
+    "family": "Asteraceae",
+    "origin": "Southern Africa and Arabian Peninsula"
+  },
+  "class_067": {
+    "common_name": "Spring Crocus",
+    "scientific_name": "Crocus vernus",
+    "family": "Iridaceae",
+    "origin": "Central and Southern Europe (Alps to Carpathians)"
+  },
+  "class_068": {
+    "common_name": "Bearded Iris",
+    "scientific_name": "Iris germanica",
+    "family": "Iridaceae",
+    "origin": "Southern Europe and Western Asia (garden hybrid of ancient origin)"
+  },
+  "class_069": {
+    "common_name": "Windflower",
+    "scientific_name": "Anemone nemorosa",
+    "family": "Ranunculaceae",
+    "origin": "Europe and Western Asia"
+  },
+  "class_070": {
+    "common_name": "Tree Poppy",
+    "scientific_name": "Dendromecon rigida",
+    "family": "Papaveraceae",
+    "origin": "Western North America (California, USA)"
+  },
+  "class_071": {
+    "common_name": "Gazania",
+    "scientific_name": "Gazania rigens",
+    "family": "Asteraceae",
+    "origin": "Southern Africa (South Africa and Mozambique)"
+  },
+  "class_072": {
+    "common_name": "Azalea",
+    "scientific_name": "Rhododendron",
+    "family": "Ericaceae",
+    "origin": "East Asia (China, Japan, and Korea)"
+  },
+  "class_073": {
+    "common_name": "Water Lily",
+    "scientific_name": "Nymphaea",
+    "family": "Nymphaeaceae",
+    "origin": "Cosmopolitan (temperate and tropical regions worldwide)"
+  },
+  "class_074": {
+    "common_name": "Rose",
+    "scientific_name": "Rosa",
+    "family": "Rosaceae",
+    "origin": "Asia (primarily China), with species across Europe, North America, and Africa"
+  },
+  "class_075": {
+    "common_name": "Thorn Apple",
+    "scientific_name": "Datura stramonium",
+    "family": "Solanaceae",
+    "origin": "Central America and Mexico (naturalized worldwide)"
+  },
+  "class_076": {
+    "common_name": "Morning Glory",
+    "scientific_name": "Ipomoea purpurea",
+    "family": "Convolvulaceae",
+    "origin": "Mexico and Central America"
+  },
+  "class_077": {
+    "common_name": "Passion Flower",
+    "scientific_name": "Passiflora",
+    "family": "Passifloraceae",
+    "origin": "Tropical and subtropical Americas"
+  },
+  "class_078": {
+    "common_name": "Lotus",
+    "scientific_name": "Nelumbo nucifera",
+    "family": "Nelumbonaceae",
+    "origin": "South and Southeast Asia (India, China, and Southeast Asia)"
+  },
+  "class_079": {
+    "common_name": "Toad Lily",
+    "scientific_name": "Tricyrtis hirta",
+    "family": "Liliaceae",
+    "origin": "Japan"
+  },
+  "class_080": {
+    "common_name": "Anthurium",
+    "scientific_name": "Anthurium andraeanum",
+    "family": "Araceae",
+    "origin": "Colombia and Ecuador"
+  },
+  "class_081": {
+    "common_name": "Frangipani",
+    "scientific_name": "Plumeria rubra",
+    "family": "Apocynaceae",
+    "origin": "Mexico, Central America, and Venezuela"
+  },
+  "class_082": {
+    "common_name": "Clematis",
+    "scientific_name": "Clematis viticella",
+    "family": "Ranunculaceae",
+    "origin": "Southern Europe and Western Asia (Italy to Iran)"
+  },
+  "class_083": {
+    "common_name": "Hibiscus",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "family": "Malvaceae",
+    "origin": "East Asia (China and tropical Asia)"
+  },
+  "class_084": {
+    "common_name": "Columbine",
+    "scientific_name": "Aquilegia vulgaris",
+    "family": "Ranunculaceae",
+    "origin": "Europe (from British Isles to Central Europe)"
+  },
+  "class_085": {
+    "common_name": "Desert-rose",
+    "scientific_name": "Adenium obesum",
+    "family": "Apocynaceae",
+    "origin": "Sub-Saharan Africa and the Arabian Peninsula"
+  },
+  "class_086": {
+    "common_name": "Tree Mallow",
+    "scientific_name": "Lavatera thuringiaca",
+    "family": "Malvaceae",
+    "origin": "Central and Southeastern Europe to Central Asia"
+  },
+  "class_087": {
+    "common_name": "Magnolia",
+    "scientific_name": "Magnolia soulangeana",
+    "family": "Magnoliaceae",
+    "origin": "Garden hybrid (cross between Chinese species M. denudata and M. liliiflora)"
+  },
+  "class_088": {
+    "common_name": "Cyclamen",
+    "scientific_name": "Cyclamen persicum",
+    "family": "Primulaceae",
+    "origin": "Eastern Mediterranean (Greece, Turkey, Lebanon, and North Africa)"
+  },
+  "class_089": {
+    "common_name": "Watercress",
+    "scientific_name": "Nasturtium officinale",
+    "family": "Brassicaceae",
+    "origin": "Europe and Western Asia"
+  },
+  "class_090": {
+    "common_name": "Canna Lily",
+    "scientific_name": "Canna indica",
+    "family": "Cannaceae",
+    "origin": "Tropical and subtropical Americas"
+  },
+  "class_091": {
+    "common_name": "Hippeastrum",
+    "scientific_name": "Hippeastrum",
+    "family": "Amaryllidaceae",
+    "origin": "Tropical and subtropical South America"
+  },
+  "class_092": {
+    "common_name": "Bee Balm",
+    "scientific_name": "Monarda didyma",
+    "family": "Lamiaceae",
+    "origin": "Eastern North America"
+  },
+  "class_093": {
+    "common_name": "Ball Moss",
+    "scientific_name": "Tillandsia recurvata",
+    "family": "Bromeliaceae",
+    "origin": "Southern North America to South America (USA to Argentina)"
+  },
+  "class_094": {
+    "common_name": "Foxglove",
+    "scientific_name": "Digitalis purpurea",
+    "family": "Plantaginaceae",
+    "origin": "Western and Southwestern Europe"
+  },
+  "class_095": {
+    "common_name": "Bougainvillea",
+    "scientific_name": "Bougainvillea glabra",
+    "family": "Nyctaginaceae",
+    "origin": "South America (Brazil)"
+  },
+  "class_096": {
+    "common_name": "Camellia",
+    "scientific_name": "Camellia japonica",
+    "family": "Theaceae",
+    "origin": "East Asia (China and Japan)"
+  },
+  "class_097": {
+    "common_name": "Mallow",
+    "scientific_name": "Malva sylvestris",
+    "family": "Malvaceae",
+    "origin": "Europe, North Africa, and Western Asia"
+  },
+  "class_098": {
+    "common_name": "Mexican Petunia",
+    "scientific_name": "Ruellia simplex",
+    "family": "Acanthaceae",
+    "origin": "Mexico, Central America, and South America"
+  },
+  "class_099": {
+    "common_name": "Bromelia",
+    "scientific_name": "Bromelia pinguin",
+    "family": "Bromeliaceae",
+    "origin": "Caribbean and Central America (Mexico to Colombia)"
+  },
+  "class_100": {
+    "common_name": "Blanket Flower",
+    "scientific_name": "Gaillardia aristata",
+    "family": "Asteraceae",
+    "origin": "Western North America (Great Plains and Rocky Mountains)"
+  },
+  "class_101": {
+    "common_name": "Trumpet Creeper",
+    "scientific_name": "Campsis radicans",
+    "family": "Bignoniaceae",
+    "origin": "Eastern North America"
+  },
+  "class_102": {
+    "common_name": "Blackberry Lily",
+    "scientific_name": "Iris domestica",
+    "family": "Iridaceae",
+    "origin": "East and Southeast Asia (China, Japan, India, and Southeast Asia)"
+  }
+}
