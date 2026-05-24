@@ -31,9 +31,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 COPY api/ ./api/
 COPY utils/ ./utils/
-
-# Create models directory (mount volume at runtime)
-RUN mkdir -p /app/models
+COPY models/ ./models/
 
 # Expose port
 EXPOSE 8000
@@ -43,4 +41,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
     CMD curl -f http://localhost:8000/health || exit 1
 
 # Run application
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1"]

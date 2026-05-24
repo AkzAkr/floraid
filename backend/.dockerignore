@@ -1,0 +1,10 @@
+.env
+__pycache__/
+api/__pycache__/
+utils/__pycache__/
+*.pyc
+*.log
+backend-server*.log
+src/
+models/*_aug.keras
+models/placeholder.txt
