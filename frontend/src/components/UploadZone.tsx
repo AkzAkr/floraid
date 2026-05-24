@@ -1,6 +1,12 @@
 "use client";
 
-import { useCallback, useState, useEffect, useRef } from "react";
+import {
+  useCallback,
+  useState,
+  useEffect,
+  useRef,
+  type ChangeEvent,
+} from "react";
 import Image from "next/image";
 import { useDropzone, type FileRejection } from "react-dropzone";
 import {
@@ -37,6 +43,7 @@ export default function UploadZone({
   } | null>(null);
 
   const errorTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const cameraInputRef = useRef<HTMLInputElement | null>(null);
 
   const clearError = useCallback(() => {
     if (errorTimerRef.current) {
@@ -68,6 +75,32 @@ export default function UploadZone({
     });
     clearError();
   }, [resetKey, clearError]);
+
+  const handleFile = useCallback(
+    (file: File) => {
+      clearError();
+
+      if (file.size > 10 * 1024 * 1024) {
+        setUploadError({ type: "size", message: `File too large. Max 10MB.` });
+        showError(t("upload.tooLarge"), "delete");
+        return;
+      }
+      if (!file.type.startsWith("image/")) {
+        setUploadError({ type: "type", message: "Only images allowed." });
+        showError(t("upload.imagesOnly"), "delete");
+        return;
+      }
+
+      const previewUrl = URL.createObjectURL(file);
+      setPreview((currentPreview) => {
+        if (currentPreview) URL.revokeObjectURL(currentPreview);
+        return previewUrl;
+      });
+      showSuccess(`"${file.name}" uploaded`, "save");
+      onUpload(file, previewUrl);
+    },
+    [clearError, onUpload, showError, showSuccess, t],
+  );
 
   const onDrop = useCallback(
     (acceptedFiles: File[], fileRejections: FileRejection[]) => {
@@ -134,6 +167,14 @@ export default function UploadZone({
     },
     [onUpload, showError, showSuccess, showWarning, clearError, t],
   );
+
+  const handleCameraChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file) {
+      handleFile(file);
+    }
+    event.target.value = "";
+  };
 
   const { getRootProps, getInputProps, isDragActive, isDragReject } =
     useDropzone({
@@ -228,6 +269,15 @@ export default function UploadZone({
               tabIndex={0}
             >
               <input {...getInputProps()} />
+              <input
+                ref={cameraInputRef}
+                type="file"
+                accept="image/*"
+                capture="environment"
+                className="sr-only"
+                onChange={handleCameraChange}
+                tabIndex={-1}
+              />
 
               <div className="relative flex flex-col items-center gap-5">
                 <motion.div
@@ -264,7 +314,10 @@ export default function UploadZone({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   type="button"
-                  onClick={(e) => e.stopPropagation()}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    cameraInputRef.current?.click();
+                  }}
                   className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white border border-[#E8EDE8] text-sm font-medium text-[#6B7B6C] hover:border-[#5B8C5A] hover:text-[#5B8C5A] transition-all"
                 >
                   <Camera className="w-4 h-4" />
