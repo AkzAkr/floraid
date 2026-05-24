@@ -1,0 +1,54 @@
+# Python environments and caches
+venv/
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+
+# Local environment files
+.env
+.env.*
+backend/.env
+frontend/.env.local
+!backend/.env.example
+
+# Logs
+*.log
+frontend/dev-server*.log
+backend/backend-server*.log
+
+# Dataset and generated training outputs
+data/
+notebooks/
+scripts/
+tests/
+assets/
+config.yaml
+setup.py
+requirements.txt
+!backend/requirements.txt
+docker-compose.yml
+backend/models/*_aug.keras
+backend/models/placeholder.txt
+backend/strip_augmentation_local.py
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Review/temp folders
+*_review/
+tmp/
+temp/
