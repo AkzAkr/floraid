@@ -4,7 +4,7 @@ FloraID is an AI-powered flower identification web app for classifying Oxford 10
 
 ## Live Demo
 
-- Frontend: `https://your-vercel-url.vercel.app`
+- Frontend: `https://floraid.vercel.app/`
 - Backend API: `https://ivchzzz-floraid-backend.hf.space`
 
 ## Features
